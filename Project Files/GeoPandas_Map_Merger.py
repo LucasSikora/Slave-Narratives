@@ -33,4 +33,4 @@ merged_gdf = gdf.merge(df, left_on=['State_Abbreviation', 'NAME'], right_on=['St
 
 merged_gdf.to_csv(output_csv_path, index = False)
 
-# Now 'merged_gdf' is a GeoDataFrame with your CSV data and the county geometries
+# Now 'merged_gdf' is a GeoDataFrame with CSV data and the county geometries
